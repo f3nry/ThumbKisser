@@ -11,11 +11,6 @@
 		DA6602701658B96B00DFA630 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66026F1658B96B00DFA630 /* SystemConfiguration.framework */; };
 		DA6602721658B97200DFA630 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6602711658B97200DFA630 /* MobileCoreServices.framework */; };
 		DA6602741658B97900DFA630 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6602731658B97900DFA630 /* CFNetwork.framework */; };
-		DA6602811658BDA700DFA630 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66027E1658BDA700DFA630 /* SocketIO.m */; };
-		DA6602821658BDA700DFA630 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6602801658BDA700DFA630 /* SocketIOJSONSerialization.m */; };
-		DA66028C1658BDE100DFA630 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = DA6602851658BDE100DFA630 /* base64.c */; };
-		DA66028D1658BDE100DFA630 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6602881658BDE100DFA630 /* NSData+SRB64Additions.m */; };
-		DA66028E1658BDE100DFA630 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66028B1658BDE100DFA630 /* SRWebSocket.m */; };
 		DA6602901658BE0900DFA630 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66028F1658BE0900DFA630 /* libicucore.A.dylib */; };
 		DA6602921658C04800DFA630 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6602911658C04800DFA630 /* libicucore.dylib */; };
 		DA6602981658C88800DFA630 /* TKThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6602971658C88800DFA630 /* TKThumb.m */; };
@@ -38,6 +33,11 @@
 		DA66FDA716588B0600DFA630 /* ThumbKisserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FDA616588B0600DFA630 /* ThumbKisserTests.m */; };
 		DA66FDED16589E7500DFA630 /* thumbprint.png in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDEC16589E7500DFA630 /* thumbprint.png */; };
 		DA66FE201658B3E300DFA630 /* TKSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FE1F1658B3E300DFA630 /* TKSocketClient.m */; };
+		DAEF4C8B1658F175007BCAF1 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = DAEF4C841658F175007BCAF1 /* base64.c */; };
+		DAEF4C8C1658F175007BCAF1 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEF4C871658F175007BCAF1 /* NSData+SRB64Additions.m */; };
+		DAEF4C8D1658F175007BCAF1 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEF4C8A1658F175007BCAF1 /* SRWebSocket.m */; };
+		DAEF4C921658F18E007BCAF1 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEF4C8F1658F18E007BCAF1 /* SocketIO.m */; };
+		DAEF4C931658F18E007BCAF1 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEF4C911658F18E007BCAF1 /* SocketIOJSONSerialization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,17 +55,6 @@
 		DA66026F1658B96B00DFA630 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
 		DA6602711658B97200DFA630 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCoreServices.framework; sourceTree = "<group>"; };
 		DA6602731658B97900DFA630 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CFNetwork.framework; sourceTree = "<group>"; };
-		DA66027D1658BDA700DFA630 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIO.h; path = "../socket.IO-objc/SocketIO.h"; sourceTree = "<group>"; };
-		DA66027E1658BDA700DFA630 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIO.m; path = "../socket.IO-objc/SocketIO.m"; sourceTree = "<group>"; };
-		DA66027F1658BDA700DFA630 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOJSONSerialization.h; path = "../socket.IO-objc/SocketIOJSONSerialization.h"; sourceTree = "<group>"; };
-		DA6602801658BDA700DFA630 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOJSONSerialization.m; path = "../socket.IO-objc/SocketIOJSONSerialization.m"; sourceTree = "<group>"; };
-		DA6602851658BDE100DFA630 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
-		DA6602861658BDE100DFA630 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
-		DA6602871658BDE100DFA630 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
-		DA6602881658BDE100DFA630 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
-		DA6602891658BDE100DFA630 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
-		DA66028A1658BDE100DFA630 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
-		DA66028B1658BDE100DFA630 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
 		DA66028F1658BE0900DFA630 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
 		DA6602911658C04800DFA630 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		DA6602961658C88800DFA630 /* TKThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKThumb.h; sourceTree = "<group>"; };
@@ -96,6 +85,17 @@
 		DA66FDEC16589E7500DFA630 /* thumbprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbprint.png; sourceTree = "<group>"; };
 		DA66FE1E1658B3E300DFA630 /* TKSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSocketClient.h; sourceTree = "<group>"; };
 		DA66FE1F1658B3E300DFA630 /* TKSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSocketClient.m; sourceTree = "<group>"; };
+		DAEF4C841658F175007BCAF1 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		DAEF4C851658F175007BCAF1 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		DAEF4C861658F175007BCAF1 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		DAEF4C871658F175007BCAF1 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		DAEF4C881658F175007BCAF1 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		DAEF4C891658F175007BCAF1 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		DAEF4C8A1658F175007BCAF1 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		DAEF4C8E1658F18E007BCAF1 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
+		DAEF4C8F1658F18E007BCAF1 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = "<group>"; };
+		DAEF4C901658F18E007BCAF1 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOJSONSerialization.h; sourceTree = "<group>"; };
+		DAEF4C911658F18E007BCAF1 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOJSONSerialization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,39 +128,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA66027C1658BD8300DFA630 /* Socket.IO */ = {
-			isa = PBXGroup;
-			children = (
-				DA66027D1658BDA700DFA630 /* SocketIO.h */,
-				DA66027E1658BDA700DFA630 /* SocketIO.m */,
-				DA66027F1658BDA700DFA630 /* SocketIOJSONSerialization.h */,
-				DA6602801658BDA700DFA630 /* SocketIOJSONSerialization.m */,
-			);
-			name = Socket.IO;
-			sourceTree = "<group>";
-		};
-		DA6602841658BDE100DFA630 /* SocketRocket */ = {
-			isa = PBXGroup;
-			children = (
-				DA6602851658BDE100DFA630 /* base64.c */,
-				DA6602861658BDE100DFA630 /* base64.h */,
-				DA6602871658BDE100DFA630 /* NSData+SRB64Additions.h */,
-				DA6602881658BDE100DFA630 /* NSData+SRB64Additions.m */,
-				DA6602891658BDE100DFA630 /* SocketRocket-Prefix.pch */,
-				DA66028A1658BDE100DFA630 /* SRWebSocket.h */,
-				DA66028B1658BDE100DFA630 /* SRWebSocket.m */,
-			);
-			name = SocketRocket;
-			path = ../SocketRocket/SocketRocket;
-			sourceTree = "<group>";
-		};
 		DA66FD6316588B0600DFA630 = {
 			isa = PBXGroup;
 			children = (
+				DAEF4C941658F199007BCAF1 /* SocketIO */,
+				DAEF4C831658F175007BCAF1 /* SocketRocket */,
 				DA6602911658C04800DFA630 /* libicucore.dylib */,
 				DA66028F1658BE0900DFA630 /* libicucore.A.dylib */,
-				DA6602841658BDE100DFA630 /* SocketRocket */,
-				DA66027C1658BD8300DFA630 /* Socket.IO */,
 				DA66FD7816588B0600DFA630 /* ThumbKisser */,
 				DA66FD9F16588B0600DFA630 /* ThumbKisserTests */,
 				DA66FD7116588B0600DFA630 /* Frameworks */,
@@ -250,6 +224,31 @@
 				DA66FDEC16589E7500DFA630 /* thumbprint.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		DAEF4C831658F175007BCAF1 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				DAEF4C841658F175007BCAF1 /* base64.c */,
+				DAEF4C851658F175007BCAF1 /* base64.h */,
+				DAEF4C861658F175007BCAF1 /* NSData+SRB64Additions.h */,
+				DAEF4C871658F175007BCAF1 /* NSData+SRB64Additions.m */,
+				DAEF4C881658F175007BCAF1 /* SocketRocket-Prefix.pch */,
+				DAEF4C891658F175007BCAF1 /* SRWebSocket.h */,
+				DAEF4C8A1658F175007BCAF1 /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		DAEF4C941658F199007BCAF1 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				DAEF4C8E1658F18E007BCAF1 /* SocketIO.h */,
+				DAEF4C8F1658F18E007BCAF1 /* SocketIO.m */,
+				DAEF4C901658F18E007BCAF1 /* SocketIOJSONSerialization.h */,
+				DAEF4C911658F18E007BCAF1 /* SocketIOJSONSerialization.m */,
+			);
+			path = SocketIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,12 +368,12 @@
 				DA66FD8316588B0600DFA630 /* TKAppDelegate.m in Sources */,
 				DA66FD9216588B0600DFA630 /* TKViewController.m in Sources */,
 				DA66FE201658B3E300DFA630 /* TKSocketClient.m in Sources */,
-				DA6602811658BDA700DFA630 /* SocketIO.m in Sources */,
-				DA6602821658BDA700DFA630 /* SocketIOJSONSerialization.m in Sources */,
-				DA66028C1658BDE100DFA630 /* base64.c in Sources */,
-				DA66028D1658BDE100DFA630 /* NSData+SRB64Additions.m in Sources */,
-				DA66028E1658BDE100DFA630 /* SRWebSocket.m in Sources */,
 				DA6602981658C88800DFA630 /* TKThumb.m in Sources */,
+				DAEF4C8B1658F175007BCAF1 /* base64.c in Sources */,
+				DAEF4C8C1658F175007BCAF1 /* NSData+SRB64Additions.m in Sources */,
+				DAEF4C8D1658F175007BCAF1 /* SRWebSocket.m in Sources */,
+				DAEF4C921658F18E007BCAF1 /* SocketIO.m in Sources */,
+				DAEF4C931658F18E007BCAF1 /* SocketIOJSONSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
