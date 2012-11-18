@@ -9,34 +9,47 @@
 #import "TKViewController.h"
 
 @interface TKViewController ()
-@property(nonatomic, strong) IBOutlet UIImageView *thumb;
+@property(nonatomic, strong) IBOutlet UIImageView *mainThumb;
+@property(nonatomic, strong) TKSocketClient* socketClient;
 @end
 
 @implementation TKViewController
 
-@synthesize thumb;
+@synthesize mainThumb;
+@synthesize socketClient;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    socketClient = [[TKSocketClient alloc] initWithDelegate:self];
+    [socketClient connect];
 }
 
-- (IBAction) handleDrag: (UIGestureRecognizer*) sender {
-    NSLog(@"Handled single tap, %@", sender);
+- (void) touchesHappened:(NSSet *)touches withEvent:(UIEvent*)event {
+    CGPoint tappedPoint = [[touches anyObject] locationInView:self.view];
+    mainThumb.center = tappedPoint;
     
-    CGPoint tappedPoint = [sender locationInView: sender.view];
-    
-    NSLog(@"Tapped point: %f %f", tappedPoint.x, tappedPoint.y);
-    thumb.center = tappedPoint;
+    [socketClient movedAtPoint:tappedPoint];
 }
 
 -(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     [super touchesMoved:touches withEvent:event];
-    
-    CGPoint tappedPoint = [[touches anyObject] locationInView:self.view];
-    
-    thumb.center = tappedPoint;
+    [self touchesHappened:touches withEvent:event];
+}
+
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [super touchesMoved:touches withEvent:event];
+    [self touchesHappened:touches withEvent:event];
+}
+
+- (void) thumbAdded:(TKThumb *)thumb {
+    [self.view addSubview:thumb.imageView];
+}
+
+- (void) thumbRemoved:(TKThumb *)thumb {
+    [thumb.imageView removeFromSuperview];
 }
 
 - (void)didReceiveMemoryWarning

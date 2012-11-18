@@ -21,7 +21,7 @@
                         <gestureRecognizers/>
                     </view>
                     <connections>
-                        <outlet property="thumb" destination="kYT-Ks-SZJ" id="JKO-ji-9NU"/>
+                        <outlet property="mainThumb" destination="kYT-Ks-SZJ" id="iMp-VG-cnl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -35,8 +35,7 @@
         <class className="TKViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TKViewController.h"/>
             <relationships>
-                <relationship kind="action" name="handleDrag:"/>
-                <relationship kind="outlet" name="thumb" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="mainThumb" candidateClass="UIImageView"/>
             </relationships>
         </class>
     </classes>

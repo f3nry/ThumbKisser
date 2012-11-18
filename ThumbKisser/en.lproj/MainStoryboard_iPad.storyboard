@@ -26,7 +26,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="thumb" destination="0na-h0-JxL" id="PwR-dt-8kl"/>
+                        <outlet property="mainThumb" destination="0na-h0-JxL" id="RI2-1e-Tsn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
@@ -44,8 +44,7 @@
         <class className="TKViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TKViewController.h"/>
             <relationships>
-                <relationship kind="action" name="handleDrag:"/>
-                <relationship kind="outlet" name="thumb" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="mainThumb" candidateClass="UIImageView"/>
             </relationships>
         </class>
     </classes>

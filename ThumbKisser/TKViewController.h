@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TKSocketClient.h"
 
-@interface TKViewController : UIViewController
-- (IBAction)handleDrag:(id)sender;
+@interface TKViewController : UIViewController <TKSocketClientDelegate>
+- (void) thumbAdded:(TKThumb *)thumb;
 @end
