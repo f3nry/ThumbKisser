@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TKViewController : UIViewController
-
+- (IBAction)handleDrag:(id)sender;
 @end

@@ -24,6 +24,15 @@
 		DA66FD9C16588B0600DFA630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66FD7416588B0600DFA630 /* Foundation.framework */; };
 		DA66FDA416588B0600DFA630 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDA216588B0600DFA630 /* InfoPlist.strings */; };
 		DA66FDA716588B0600DFA630 /* ThumbKisserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FDA616588B0600DFA630 /* ThumbKisserTests.m */; };
+		DA66FDED16589E7500DFA630 /* thumbprint.png in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDEC16589E7500DFA630 /* thumbprint.png */; };
+		DA66FE0E1658B34400DFA630 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDEF1658B34400DFA630 /* .gitignore */; };
+		DA66FE0F1658B34400DFA630 /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDF01658B34400DFA630 /* .gitmodules */; };
+		DA66FE101658B34400DFA630 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDF11658B34400DFA630 /* LICENSE */; };
+		DA66FE111658B34400DFA630 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDF21658B34400DFA630 /* README.md */; };
+		DA66FE121658B34400DFA630 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FDF41658B34400DFA630 /* SocketIO.m */; };
+		DA66FE131658B34400DFA630 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FDF61658B34400DFA630 /* SocketIOJSONSerialization.m */; };
+		DA66FE1A1658B34400DFA630 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA66FE071658B34400DFA630 /* .gitignore */; };
+		DA66FE201658B3E300DFA630 /* TKSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FE1F1658B3E300DFA630 /* TKSocketClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = DA66FD6D16588B0600DFA630;
 			remoteInfo = ThumbKisser;
+		};
+		DA66FE1C1658B34400DFA630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA66FE031658B34400DFA630 /* SocketTesterARC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4ADCCB9D15790D760022990C;
+			remoteInfo = SocketTesterARC;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -60,6 +76,19 @@
 		DA66FDA316588B0600DFA630 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA66FDA516588B0600DFA630 /* ThumbKisserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbKisserTests.h; sourceTree = "<group>"; };
 		DA66FDA616588B0600DFA630 /* ThumbKisserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbKisserTests.m; sourceTree = "<group>"; };
+		DA66FDEC16589E7500DFA630 /* thumbprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbprint.png; sourceTree = "<group>"; };
+		DA66FDEF1658B34400DFA630 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA66FDF01658B34400DFA630 /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		DA66FDF11658B34400DFA630 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA66FDF21658B34400DFA630 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DA66FDF31658B34400DFA630 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
+		DA66FDF41658B34400DFA630 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = "<group>"; };
+		DA66FDF51658B34400DFA630 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOJSONSerialization.h; sourceTree = "<group>"; };
+		DA66FDF61658B34400DFA630 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOJSONSerialization.m; sourceTree = "<group>"; };
+		DA66FE031658B34400DFA630 /* SocketTesterARC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocketTesterARC.xcodeproj; sourceTree = "<group>"; };
+		DA66FE071658B34400DFA630 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA66FE1E1658B3E300DFA630 /* TKSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSocketClient.h; sourceTree = "<group>"; };
+		DA66FE1F1658B3E300DFA630 /* TKSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSocketClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +118,7 @@
 		DA66FD6316588B0600DFA630 = {
 			isa = PBXGroup;
 			children = (
+				DA66FDEE1658B34400DFA630 /* socket.IO-objc */,
 				DA66FD7816588B0600DFA630 /* ThumbKisser */,
 				DA66FD9F16588B0600DFA630 /* ThumbKisserTests */,
 				DA66FD7116588B0600DFA630 /* Frameworks */,
@@ -119,6 +149,7 @@
 		DA66FD7816588B0600DFA630 /* ThumbKisser */ = {
 			isa = PBXGroup;
 			children = (
+				DA66FDB016588BBD00DFA630 /* Resources */,
 				DA66FD8116588B0600DFA630 /* TKAppDelegate.h */,
 				DA66FD8216588B0600DFA630 /* TKAppDelegate.m */,
 				DA66FD8A16588B0600DFA630 /* MainStoryboard_iPhone.storyboard */,
@@ -126,6 +157,8 @@
 				DA66FD9016588B0600DFA630 /* TKViewController.h */,
 				DA66FD9116588B0600DFA630 /* TKViewController.m */,
 				DA66FD7916588B0600DFA630 /* Supporting Files */,
+				DA66FE1E1658B3E300DFA630 /* TKSocketClient.h */,
+				DA66FE1F1658B3E300DFA630 /* TKSocketClient.m */,
 			);
 			path = ThumbKisser;
 			sourceTree = "<group>";
@@ -161,6 +194,63 @@
 				DA66FDA216588B0600DFA630 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA66FDB016588BBD00DFA630 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FDEC16589E7500DFA630 /* thumbprint.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DA66FDEE1658B34400DFA630 /* socket.IO-objc */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FDEF1658B34400DFA630 /* .gitignore */,
+				DA66FDF01658B34400DFA630 /* .gitmodules */,
+				DA66FDF11658B34400DFA630 /* LICENSE */,
+				DA66FDF21658B34400DFA630 /* README.md */,
+				DA66FDF31658B34400DFA630 /* SocketIO.h */,
+				DA66FDF41658B34400DFA630 /* SocketIO.m */,
+				DA66FDF51658B34400DFA630 /* SocketIOJSONSerialization.h */,
+				DA66FDF61658B34400DFA630 /* SocketIOJSONSerialization.m */,
+				DA66FE031658B34400DFA630 /* SocketTesterARC.xcodeproj */,
+				DA66FE061658B34400DFA630 /* submodules */,
+			);
+			path = "socket.IO-objc";
+			sourceTree = "<group>";
+		};
+		DA66FE041658B34400DFA630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FE1D1658B34400DFA630 /* SocketTesterARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA66FE061658B34400DFA630 /* submodules */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FE071658B34400DFA630 /* .gitignore */,
+				DA66FE081658B34400DFA630 /* json-framework */,
+				DA66FE091658B34400DFA630 /* socket-rocket */,
+			);
+			path = submodules;
+			sourceTree = "<group>";
+		};
+		DA66FE081658B34400DFA630 /* json-framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "json-framework";
+			sourceTree = "<group>";
+		};
+		DA66FE091658B34400DFA630 /* socket-rocket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "socket-rocket";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +312,12 @@
 			mainGroup = DA66FD6316588B0600DFA630;
 			productRefGroup = DA66FD6F16588B0600DFA630 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DA66FE041658B34400DFA630 /* Products */;
+					ProjectRef = DA66FE031658B34400DFA630 /* SocketTesterARC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DA66FD6D16588B0600DFA630 /* ThumbKisser */,
@@ -229,6 +325,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DA66FE1D1658B34400DFA630 /* SocketTesterARC.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SocketTesterARC.app;
+			remoteRef = DA66FE1C1658B34400DFA630 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DA66FD6C16588B0600DFA630 /* Resources */ = {
@@ -241,6 +347,12 @@
 				DA66FD8916588B0600DFA630 /* Default-568h@2x.png in Resources */,
 				DA66FD8C16588B0600DFA630 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DA66FD8F16588B0600DFA630 /* MainStoryboard_iPad.storyboard in Resources */,
+				DA66FDED16589E7500DFA630 /* thumbprint.png in Resources */,
+				DA66FE0E1658B34400DFA630 /* .gitignore in Resources */,
+				DA66FE0F1658B34400DFA630 /* .gitmodules in Resources */,
+				DA66FE101658B34400DFA630 /* LICENSE in Resources */,
+				DA66FE111658B34400DFA630 /* README.md in Resources */,
+				DA66FE1A1658B34400DFA630 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +390,9 @@
 				DA66FD7F16588B0600DFA630 /* main.m in Sources */,
 				DA66FD8316588B0600DFA630 /* TKAppDelegate.m in Sources */,
 				DA66FD9216588B0600DFA630 /* TKViewController.m in Sources */,
+				DA66FE121658B34400DFA630 /* SocketIO.m in Sources */,
+				DA66FE131658B34400DFA630 /* SocketIOJSONSerialization.m in Sources */,
+				DA66FE201658B3E300DFA630 /* TKSocketClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThumbKisser/ThumbKisser-Prefix.pch";
 				INFOPLIST_FILE = "ThumbKisser/ThumbKisser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThumbKisser/ThumbKisser-Prefix.pch";
 				INFOPLIST_FILE = "ThumbKisser/ThumbKisser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +579,7 @@
 				DA66FDAC16588B0600DFA630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA66FDAD16588B0600DFA630 /* Build configuration list for PBXNativeTarget "ThumbKisserTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +588,7 @@
 				DA66FDAF16588B0600DFA630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
