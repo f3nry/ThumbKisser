@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA66FD7316588B0600DFA630 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66FD7216588B0600DFA630 /* UIKit.framework */; };
+		DA66FD7516588B0600DFA630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66FD7416588B0600DFA630 /* Foundation.framework */; };
+		DA66FD7716588B0600DFA630 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66FD7616588B0600DFA630 /* CoreGraphics.framework */; };
+		DA66FD7D16588B0600DFA630 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA66FD7B16588B0600DFA630 /* InfoPlist.strings */; };
+		DA66FD7F16588B0600DFA630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FD7E16588B0600DFA630 /* main.m */; };
+		DA66FD8316588B0600DFA630 /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FD8216588B0600DFA630 /* TKAppDelegate.m */; };
+		DA66FD8516588B0600DFA630 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA66FD8416588B0600DFA630 /* Default.png */; };
+		DA66FD8716588B0600DFA630 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA66FD8616588B0600DFA630 /* Default@2x.png */; };
+		DA66FD8916588B0600DFA630 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA66FD8816588B0600DFA630 /* Default-568h@2x.png */; };
+		DA66FD8C16588B0600DFA630 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA66FD8A16588B0600DFA630 /* MainStoryboard_iPhone.storyboard */; };
+		DA66FD8F16588B0600DFA630 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA66FD8D16588B0600DFA630 /* MainStoryboard_iPad.storyboard */; };
+		DA66FD9216588B0600DFA630 /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FD9116588B0600DFA630 /* TKViewController.m */; };
+		DA66FD9A16588B0600DFA630 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66FD9916588B0600DFA630 /* SenTestingKit.framework */; };
+		DA66FD9B16588B0600DFA630 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66FD7216588B0600DFA630 /* UIKit.framework */; };
+		DA66FD9C16588B0600DFA630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66FD7416588B0600DFA630 /* Foundation.framework */; };
+		DA66FDA416588B0600DFA630 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA66FDA216588B0600DFA630 /* InfoPlist.strings */; };
+		DA66FDA716588B0600DFA630 /* ThumbKisserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66FDA616588B0600DFA630 /* ThumbKisserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA66FD9D16588B0600DFA630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA66FD6516588B0600DFA630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA66FD6D16588B0600DFA630;
+			remoteInfo = ThumbKisser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA66FD6E16588B0600DFA630 /* ThumbKisser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThumbKisser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA66FD7216588B0600DFA630 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA66FD7416588B0600DFA630 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA66FD7616588B0600DFA630 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA66FD7A16588B0600DFA630 /* ThumbKisser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThumbKisser-Info.plist"; sourceTree = "<group>"; };
+		DA66FD7C16588B0600DFA630 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA66FD7E16588B0600DFA630 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA66FD8016588B0600DFA630 /* ThumbKisser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThumbKisser-Prefix.pch"; sourceTree = "<group>"; };
+		DA66FD8116588B0600DFA630 /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		DA66FD8216588B0600DFA630 /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		DA66FD8416588B0600DFA630 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA66FD8616588B0600DFA630 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA66FD8816588B0600DFA630 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA66FD8B16588B0600DFA630 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DA66FD8E16588B0600DFA630 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DA66FD9016588B0600DFA630 /* TKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
+		DA66FD9116588B0600DFA630 /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+		DA66FD9816588B0600DFA630 /* ThumbKisserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThumbKisserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA66FD9916588B0600DFA630 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA66FDA116588B0600DFA630 /* ThumbKisserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThumbKisserTests-Info.plist"; sourceTree = "<group>"; };
+		DA66FDA316588B0600DFA630 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA66FDA516588B0600DFA630 /* ThumbKisserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbKisserTests.h; sourceTree = "<group>"; };
+		DA66FDA616588B0600DFA630 /* ThumbKisserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbKisserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA66FD6B16588B0600DFA630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA66FD7316588B0600DFA630 /* UIKit.framework in Frameworks */,
+				DA66FD7516588B0600DFA630 /* Foundation.framework in Frameworks */,
+				DA66FD7716588B0600DFA630 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA66FD9416588B0600DFA630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA66FD9A16588B0600DFA630 /* SenTestingKit.framework in Frameworks */,
+				DA66FD9B16588B0600DFA630 /* UIKit.framework in Frameworks */,
+				DA66FD9C16588B0600DFA630 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA66FD6316588B0600DFA630 = {
+			isa = PBXGroup;
+			children = (
+				DA66FD7816588B0600DFA630 /* ThumbKisser */,
+				DA66FD9F16588B0600DFA630 /* ThumbKisserTests */,
+				DA66FD7116588B0600DFA630 /* Frameworks */,
+				DA66FD6F16588B0600DFA630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA66FD6F16588B0600DFA630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FD6E16588B0600DFA630 /* ThumbKisser.app */,
+				DA66FD9816588B0600DFA630 /* ThumbKisserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA66FD7116588B0600DFA630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FD7216588B0600DFA630 /* UIKit.framework */,
+				DA66FD7416588B0600DFA630 /* Foundation.framework */,
+				DA66FD7616588B0600DFA630 /* CoreGraphics.framework */,
+				DA66FD9916588B0600DFA630 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA66FD7816588B0600DFA630 /* ThumbKisser */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FD8116588B0600DFA630 /* TKAppDelegate.h */,
+				DA66FD8216588B0600DFA630 /* TKAppDelegate.m */,
+				DA66FD8A16588B0600DFA630 /* MainStoryboard_iPhone.storyboard */,
+				DA66FD8D16588B0600DFA630 /* MainStoryboard_iPad.storyboard */,
+				DA66FD9016588B0600DFA630 /* TKViewController.h */,
+				DA66FD9116588B0600DFA630 /* TKViewController.m */,
+				DA66FD7916588B0600DFA630 /* Supporting Files */,
+			);
+			path = ThumbKisser;
+			sourceTree = "<group>";
+		};
+		DA66FD7916588B0600DFA630 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FD7A16588B0600DFA630 /* ThumbKisser-Info.plist */,
+				DA66FD7B16588B0600DFA630 /* InfoPlist.strings */,
+				DA66FD7E16588B0600DFA630 /* main.m */,
+				DA66FD8016588B0600DFA630 /* ThumbKisser-Prefix.pch */,
+				DA66FD8416588B0600DFA630 /* Default.png */,
+				DA66FD8616588B0600DFA630 /* Default@2x.png */,
+				DA66FD8816588B0600DFA630 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA66FD9F16588B0600DFA630 /* ThumbKisserTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FDA516588B0600DFA630 /* ThumbKisserTests.h */,
+				DA66FDA616588B0600DFA630 /* ThumbKisserTests.m */,
+				DA66FDA016588B0600DFA630 /* Supporting Files */,
+			);
+			path = ThumbKisserTests;
+			sourceTree = "<group>";
+		};
+		DA66FDA016588B0600DFA630 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA66FDA116588B0600DFA630 /* ThumbKisserTests-Info.plist */,
+				DA66FDA216588B0600DFA630 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA66FD6D16588B0600DFA630 /* ThumbKisser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA66FDAA16588B0600DFA630 /* Build configuration list for PBXNativeTarget "ThumbKisser" */;
+			buildPhases = (
+				DA66FD6A16588B0600DFA630 /* Sources */,
+				DA66FD6B16588B0600DFA630 /* Frameworks */,
+				DA66FD6C16588B0600DFA630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThumbKisser;
+			productName = ThumbKisser;
+			productReference = DA66FD6E16588B0600DFA630 /* ThumbKisser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA66FD9716588B0600DFA630 /* ThumbKisserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA66FDAD16588B0600DFA630 /* Build configuration list for PBXNativeTarget "ThumbKisserTests" */;
+			buildPhases = (
+				DA66FD9316588B0600DFA630 /* Sources */,
+				DA66FD9416588B0600DFA630 /* Frameworks */,
+				DA66FD9516588B0600DFA630 /* Resources */,
+				DA66FD9616588B0600DFA630 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA66FD9E16588B0600DFA630 /* PBXTargetDependency */,
+			);
+			name = ThumbKisserTests;
+			productName = ThumbKisserTests;
+			productReference = DA66FD9816588B0600DFA630 /* ThumbKisserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA66FD6516588B0600DFA630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Paul Henry";
+			};
+			buildConfigurationList = DA66FD6816588B0600DFA630 /* Build configuration list for PBXProject "ThumbKisser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA66FD6316588B0600DFA630;
+			productRefGroup = DA66FD6F16588B0600DFA630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA66FD6D16588B0600DFA630 /* ThumbKisser */,
+				DA66FD9716588B0600DFA630 /* ThumbKisserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA66FD6C16588B0600DFA630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA66FD7D16588B0600DFA630 /* InfoPlist.strings in Resources */,
+				DA66FD8516588B0600DFA630 /* Default.png in Resources */,
+				DA66FD8716588B0600DFA630 /* Default@2x.png in Resources */,
+				DA66FD8916588B0600DFA630 /* Default-568h@2x.png in Resources */,
+				DA66FD8C16588B0600DFA630 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DA66FD8F16588B0600DFA630 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA66FD9516588B0600DFA630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA66FDA416588B0600DFA630 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA66FD9616588B0600DFA630 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA66FD6A16588B0600DFA630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA66FD7F16588B0600DFA630 /* main.m in Sources */,
+				DA66FD8316588B0600DFA630 /* TKAppDelegate.m in Sources */,
+				DA66FD9216588B0600DFA630 /* TKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA66FD9316588B0600DFA630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA66FDA716588B0600DFA630 /* ThumbKisserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA66FD9E16588B0600DFA630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA66FD6D16588B0600DFA630 /* ThumbKisser */;
+			targetProxy = DA66FD9D16588B0600DFA630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA66FD7B16588B0600DFA630 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA66FD7C16588B0600DFA630 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA66FD8A16588B0600DFA630 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA66FD8B16588B0600DFA630 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DA66FD8D16588B0600DFA630 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA66FD8E16588B0600DFA630 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DA66FDA216588B0600DFA630 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA66FDA316588B0600DFA630 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA66FDA816588B0600DFA630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA66FDA916588B0600DFA630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA66FDAB16588B0600DFA630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThumbKisser/ThumbKisser-Prefix.pch";
+				INFOPLIST_FILE = "ThumbKisser/ThumbKisser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA66FDAC16588B0600DFA630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThumbKisser/ThumbKisser-Prefix.pch";
+				INFOPLIST_FILE = "ThumbKisser/ThumbKisser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA66FDAE16588B0600DFA630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThumbKisser.app/ThumbKisser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThumbKisser/ThumbKisser-Prefix.pch";
+				INFOPLIST_FILE = "ThumbKisserTests/ThumbKisserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DA66FDAF16588B0600DFA630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThumbKisser.app/ThumbKisser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThumbKisser/ThumbKisser-Prefix.pch";
+				INFOPLIST_FILE = "ThumbKisserTests/ThumbKisserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA66FD6816588B0600DFA630 /* Build configuration list for PBXProject "ThumbKisser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA66FDA816588B0600DFA630 /* Debug */,
+				DA66FDA916588B0600DFA630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA66FDAA16588B0600DFA630 /* Build configuration list for PBXNativeTarget "ThumbKisser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA66FDAB16588B0600DFA630 /* Debug */,
+				DA66FDAC16588B0600DFA630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA66FDAD16588B0600DFA630 /* Build configuration list for PBXNativeTarget "ThumbKisserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA66FDAE16588B0600DFA630 /* Debug */,
+				DA66FDAF16588B0600DFA630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA66FD6516588B0600DFA630 /* Project object */;
+}
